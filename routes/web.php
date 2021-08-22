@@ -15,3 +15,4 @@ use App\Http\Controllers\AidController;
 */
 
 Route::get('/', [AidController::class, 'index']);
+Route::get('/rate', [AidController::class, 'rate']);
