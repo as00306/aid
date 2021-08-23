@@ -24,7 +24,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')->hourly();
+        // 台灣銀行匯率
+        $schedule->command('rate')->dailyAt('10:00');
     }
 
     /**

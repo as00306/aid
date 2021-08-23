@@ -14,6 +14,5 @@ class AidController extends Controller
      */
     public function index(\App\Services\AidService $service)
     {
-        $service->rate();
     }
 }
